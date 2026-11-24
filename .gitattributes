@@ -1,0 +1,4 @@
+# 统一以 LF 入库，避免 Windows 上把行尾混进提交
+* text=auto eol=lf
+*.xlsx binary
+*.json text eol=lf

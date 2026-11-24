@@ -1,0 +1,8 @@
+# 验收 3：隐藏工作表跳过
+
+工作簿里的表与状态：{'可见表': 'visible', '内部备注': 'hidden', '归档': 'veryHidden'}
+解析得到的标题：['可见表']
+结果里是否出现隐藏表内容 SECRET：False
+
+样例 samples/meeting_rooms.xlsx 的表与状态：{'会议室规格': 'visible', '内部备注': 'hidden', '归档': 'veryHidden'}
+结论：hidden 与 veryHidden 两张表都不产生标题，也不泄漏内容。
